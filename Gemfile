@@ -45,3 +45,7 @@ group :development do
   # gem "spring"
 end
 
+
+gem "mail", "~> 2.8"
+
+gem "dotenv-rails", "~> 3.1", groups: [:development, :test]
